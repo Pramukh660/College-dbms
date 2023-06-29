@@ -8,7 +8,7 @@ config = {
     'dbUser': 'admin',
     'dbPassword': '3aSbVrpXXcxuS3aexM-3yDQA5z3j8-',
     'sslMode': 'verify-full',
-    'sslRootCert': "C:\\Users\\Pramukh JS\\Desktop\\clg_db\\root.crt"
+    'sslRootCert': "https://github.com/Pramukh660/College-dbms/blob/main/root.crt"
 }
 
 def main(conf):
