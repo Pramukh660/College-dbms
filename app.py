@@ -7,8 +7,8 @@ config = {
     'dbName': 'yugabyte',
     'dbUser': 'admin',
     'dbPassword': '3aSbVrpXXcxuS3aexM-3yDQA5z3j8-',
-    'sslMode': 'verify-full',
-    'sslRootCert': "https://github.com/Pramukh660/College-dbms/main/root.crt"
+    'sslMode': '',
+    'sslRootCert': ""
 }
 
 def main(conf):
