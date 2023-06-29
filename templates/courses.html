@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Courses</title>
+</head>
+<body>
+    <h1>Courses</h1>
+    <table>
+        <tr>
+            <th>Course ID</th>
+            <th>Name</th>
+            <th>Department ID</th>
+        </tr>
+        {% for course in courses %}
+        <tr>
+            <td>{{ course[0] }}</td>
+            <td>{{ course[1] }}</td>
+            <td>{{ course[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

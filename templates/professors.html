@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professors</title>
+</head>
+<body>
+    <h1>Professors</h1>
+    <table>
+        <tr>
+            <th>Professor ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Department ID</th>
+        </tr>
+        {% for professor in professors %}
+        <tr>
+            <td>{{ professor[0] }}</td>
+            <td>{{ professor[1] }}</td>
+            <td>{{ professor[2] }}</td>
+            <td>{{ professor[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
