@@ -7,8 +7,8 @@ config = {
     'dbName': 'yugabyte',
     'dbUser': 'admin',
     'dbPassword': '3aSbVrpXXcxuS3aexM-3yDQA5z3j8-',
-    'sslMode': '',
-    'sslRootCert': ""
+    'sslMode': 'verify-full',
+    'sslRootCert': "/root.crt"
 }
 
 def main(conf):
