@@ -2,13 +2,13 @@ import psycopg2.extras
 from flask import Flask, render_template, request
 
 config = {
-    'host': 'ap-south-1.cb9b7641-8427-4775-afbb-3ce527f635ee.aws.ybdb.io',
-    'port': '5433',
-    'dbName': 'yugabyte',
-    'dbUser': 'admin',
-    'dbPassword': '3aSbVrpXXcxuS3aexM-3yDQA5z3j8-',
+    'host': ' ', #add url of YugabyteDB host database
+    'port': '5433', #default port
+    'dbName': 'yugabyte', #dafault database name
+    'dbUser': ' ', #add database use
+    'dbPassword': ' ', #add database password
     'sslMode': '',
-    'sslRootCert': ""
+    'sslRootCert': ''
 }
 
 def main(conf):
