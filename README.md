@@ -23,9 +23,10 @@ This project is a comprehensive database management system (DBMS) designed for c
 
 1. Clone the repository.
 2. Install the required python dependencies listed in the `requirements.txt` file.
-3. Configure the database connections and credentials in the configuration file.
-4. Start the application server using Gunicorn.
-5. Configure Nginx to serve the application and route requests.
+3. Configure the database connections and credentials in every python file.
+4. First run 'db_schema.py' to create database and its schema.
+5. Next run 'db_data.py' to insert some data to the tables.
+6. Start the flask application server using 'python app.py' or 'flask run'.
 
 ## Contributions
 
