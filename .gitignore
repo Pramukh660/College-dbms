@@ -1,2 +1,3 @@
-root.crt
-pramukh.pem
+*.crt
+*.pem
+stellar-parrot credentials.txt
