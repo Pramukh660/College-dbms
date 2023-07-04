@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Index page specific styles */
+  ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Professors page specific styles */
+  #professors-table {
+    margin-top: 20px;
+  }
+  
+  /* Departments page specific styles */
+  #departments-table {
+    margin-top: 20px;
+  }
+  
+  /* Courses page specific styles */
+  #courses-table {
+    margin-top: 20px;
+  }
+  
+  /* Students page specific styles */
+  #students-table {
+    margin-top: 20px;
+  }  
